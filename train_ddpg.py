@@ -9,7 +9,7 @@ from utils.tensorboard import TensorBoard
 import time
 from utils.util import *
 from DRL.env import paint_env
-from dataloader.BSDS500_loader.loaddata import getTrainingData
+from dataloader.mnist_loader.mnist_128_loader import getMnistTrain,getMnistTest
 from dataloader.QuickDraw_clean.var_shape_quickdraw import getQuickDrawTrain
 from DRL.ddpg import DDPG
 from DRL.evaluator import Evaluator

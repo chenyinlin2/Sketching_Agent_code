@@ -68,7 +68,7 @@ Train the renderer model:
 python train_renderer.py
 ```
 
-Train Sketching_Agent using the TD3 method:
+Training the Sketching_Agent using the DDPG method with a Lagrangian operator:
 
 ```bash
 python train_wgan.py
